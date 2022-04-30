@@ -71,7 +71,7 @@ const OrderForm = (props) => {
                         <input type='text' onChange={change} name='orderName' id='name-input' />
                     </label>
                     <div>
-                    <button id='order-button' type='submit' disabled={disabled} />Submit
+                    <button id='order-button' type='submit' disabled={disabled}>Submit</button>
                     </div>
                 </div>
             </div>

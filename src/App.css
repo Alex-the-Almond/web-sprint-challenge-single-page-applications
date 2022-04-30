@@ -50,3 +50,11 @@ header a {
   font-weight: 700;
 }
 
+button {
+  width: 6rem;
+  height: 2rem;
+}
+
+body {
+  background-color: lemonChiffon;
+}

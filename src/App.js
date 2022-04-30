@@ -96,13 +96,14 @@ const App = () => {
     </header>
      <main>
        <h1>BloomTech Eats</h1>
+       
        <img src='https://imgs.search.brave.com/ho_KWA-Xmb-BAcwsq8XuEwhIVeHNBihEvIFMrLq4oT0/rs:fit:1200:1000:1/g:ce/aHR0cHM6Ly9mbS5j/bmJjLmNvbS9hcHBs/aWNhdGlvbnMvY25i/Yy5jb20vcmVzb3Vy/Y2VzL2ltZy9lZGl0/b3JpYWwvMjAxNi8w/OC8yMi8xMDM4ODQ0/ODYtR2V0dHlJbWFn/ZXMtNDkyMDQ3OTEy/LjE5MTB4MTAwMC5q/cGc' alt='Pizza in pan'/>
        <Switch>
          <Route exact path='/'>
            <form onSubmit={onSubmit}>
-             <button id='order-pizza' type='submit' /> Create Pizza
+             <button id='order-pizza' type='submit'>Create Pizza</button>
            </form>
-         </Route>
+           </Route>
          <Route exact path='/pizza' id='pizza-order'>
            <h2>Pick your Toppings!</h2>
            <OrderForm values={formValues} change={inputChange} checkbox={checkboxChange} submit={formSubmit} errors={formErrors} disabled={disabled} />
