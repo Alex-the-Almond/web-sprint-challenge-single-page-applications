@@ -58,3 +58,10 @@ button {
 body {
   background-color: lemonChiffon;
 }
+
+footer a {
+  display:flex;
+  justify-content: space-evenly;
+  padding-top: 5px;
+  padding-right: 40px;
+}
