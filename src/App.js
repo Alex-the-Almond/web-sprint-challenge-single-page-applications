@@ -96,7 +96,6 @@ const App = () => {
     </header>
      <main>
        <h1>BloomTech Eats</h1>
-       
        <img src='https://imgs.search.brave.com/ho_KWA-Xmb-BAcwsq8XuEwhIVeHNBihEvIFMrLq4oT0/rs:fit:1200:1000:1/g:ce/aHR0cHM6Ly9mbS5j/bmJjLmNvbS9hcHBs/aWNhdGlvbnMvY25i/Yy5jb20vcmVzb3Vy/Y2VzL2ltZy9lZGl0/b3JpYWwvMjAxNi8w/OC8yMi8xMDM4ODQ0/ODYtR2V0dHlJbWFn/ZXMtNDkyMDQ3OTEy/LjE5MTB4MTAwMC5q/cGc' alt='Pizza in pan'/>
        <Switch>
          <Route exact path='/'>
@@ -120,6 +119,22 @@ const App = () => {
          </Route>
        </Switch>
      </main>
+     <footer>
+     <div class="social"><a href="#"><i class="icon ion-social-instagram"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-facebook"></i></a></div>
+            <ul class="list-inline">
+              <div>
+              <a href="/">Home</a>
+              </div>
+                <div>
+                <a href="/pizza">Create Your Own Pizza!</a>
+                </div>
+                <div>
+                <a href="/orders">Orders Page</a>
+                </div>
+            </ul>
+            <p class="copyright">Alexander Aymond © 2022</p>
+        </footer>
+    
   </div>
   );
 };
