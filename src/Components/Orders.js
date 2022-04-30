@@ -10,14 +10,13 @@ function Orders ({details}) {
                 <p>Size: {details.pizzaSize}</p>
                 <p>Sauce: {details.sauceSelector}</p>
                 {
-            
-            <div>
-                Toppings:
-                <ul>
-                {details.toppingOptions.map((top, idx) => <li key={idx}>{top}</li>)}
-                </ul>
-            </div>
-        }
+                    <div>
+                        Toppings:
+                        <ul>
+                            {details.toppingOptions.map((top,idx) => <li key={idx}>{top}</li>)}
+                        </ul>
+                    </div>
+                }
                 <p>Special Instructions: {details.specialInstructions}</p>
             </div>
         )
