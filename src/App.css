@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+header {
+  display:flex;
+  justify-content: space-evenly;
+  background-color: red;
+  height: 40px;
+}
+
+header a {
+  padding-top: 7px;
+  color: black;
+  text-decoration: none;
+  font-weight: 700;
+}
+
